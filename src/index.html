@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hello Rigo with Vanilla.js</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
@@ -12,18 +15,42 @@
     />
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
-  <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+  <body class="bg-success">
+
+
+
+    <div class="container-fluid p-5"> <!– CONTENEDOR PRINCIPAL –>
+
+      <div class="row">
+        <div class="col bg-success"></div>   <!– COLUMNA VACIA –> 
+        <div class="col-5 bg-white rounded-5"> <!– CONTENEDOR CARD –>
+
+          <div class="row">  <!– FILA PALO –>
+            <div class="col">
+              <h1 id="paloAleatorio" class="palo text-start p-3"></h1>
+            </div>
+          </div>
+
+          <div class="row">  <!– FILA NUMERO –>
+            <div class="col">
+              <h1 id="numeroAleatorio" class="numeroAleatorioClass text-center mt-5 mb-5"></h1>
+            </div>
+          </div>
+
+          <div class="row">  <!– FILA PALO2 –>
+            <div class="col">
+              <h1 id="paloAleatorio2" class="palo2 text-end p-3"></h1>
+            </div>
+          </div>
+        </div>
+        <div class="col bg-success"> <!– COLUMNA VACIA–> 
       </div>
-    </div>
+
+        
+        
+
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
   </body>
 </html>

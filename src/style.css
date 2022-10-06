@@ -1,1 +1,14 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.numeroAleatorioClass {
+  font-size: 150px;
+  align-content: center;
+}
+
+.palo {
+  font-size: 80px;
+}
+
+.palo2 {
+  font-size: 80px;
+}
